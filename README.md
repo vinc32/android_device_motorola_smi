@@ -1,1 +1,1 @@
-Device configuration for Motorola Droid RAZR M (XT907-scorpion_mini)
+Device configuration for Motorola Droid RAZR I (XT890-smi)
