@@ -1,10 +1,10 @@
-DEVICE_FOLDER := device/motorola/scorpion_mini
+DEVICE_FOLDER := device/motorola/smi
 
 ## (2) Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/motorola/scorpion_mini/scorpion_mini-vendor.mk)
+$(call inherit-product-if-exists, vendor/motorola/smi/smi-vendor.mk)
 
 ## overlays
-DEVICE_PACKAGE_OVERLAYS += device/motorola/scorpion_mini/overlay/aosp
+DEVICE_PACKAGE_OVERLAYS += device/motorola/smi/overlay/aosp
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
@@ -44,5 +44,5 @@ $(call inherit-product, device/motorola/msm8960-common/msm8960-common.mk)
 # Inherit cdma specific stuff
 $(call inherit-product-if-exists, vendor/motorola/msm8960-common/msm8960-common-vendor.mk)
 # Camera and GPS blobs
-$(call inherit-product-if-exists, vendor/motorola/scorpion_mini/scorpion_mini_jb_camera.mk)
-$(call inherit-product-if-exists, vendor/motorola/scorpion_mini/scorpion_42_gps.mk)
+$(call inherit-product-if-exists, vendor/motorola/scorpion_mini/smi_jb_camera.mk)
+$(call inherit-product-if-exists, vendor/motorola/scorpion_mini/smi_42_gps.mk)
