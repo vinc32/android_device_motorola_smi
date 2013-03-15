@@ -41,9 +41,9 @@
     <bool name="enableSplitSMS">false</bool>
 
     <!-- User-Agent parameter used in MMS http request -->
-    <string name="userAgent">motoxt907</string>
+    <string name="userAgent">motoxt890</string>
 
     <!-- UAProf URL -->
-    <string name="uaProfUrl">http://uaprof.motorola.com/phoneconfig/MotoXT905/profile/MotoXT905.rdf</string>
+    <string name="uaProfUrl">http://uaprof.motorola.com/phoneconfig/MotoXT890/profile/MotoXT890.rdf</string>
 
 </mms_config>
