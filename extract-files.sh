@@ -1,5 +1,5 @@
 #!/bin/sh
-DEVICE=scorpion_mini
+DEVICE=smi
 VENDOR=motorola
 
 if [ $# -eq 1 ]; then
