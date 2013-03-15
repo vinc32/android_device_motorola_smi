@@ -40,9 +40,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #    $(LOCAL_KERNEL):kernel
 
 # Inherit from msm8960-common
-$(call inherit-product, device/motorola/msm8960-common/msm8960-common.mk)
+$(call inherit-product, device/motorola/smi-common/smi-common.mk)
 # Inherit cdma specific stuff
-$(call inherit-product-if-exists, vendor/motorola/msm8960-common/msm8960-common-vendor.mk)
+$(call inherit-product-if-exists, vendor/motorola/smi-common/smi-common-vendor.mk)
 # Camera and GPS blobs
 $(call inherit-product-if-exists, vendor/motorola/scorpion_mini/smi_jb_camera.mk)
 $(call inherit-product-if-exists, vendor/motorola/scorpion_mini/smi_42_gps.mk)
