@@ -1,4 +1,4 @@
-# system.prop for XT907
+# system.prop for XT890
 #
 
 rild.libargs=-d /dev/smd0
